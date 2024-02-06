@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.project.bookstore.mapper.BookMapper">
+    <select id="showBook" resultType="Book">
+        select * from book
+    </select>
+    <select id="selectBookByType" resultType="Book">
+        select * from book where type=#{type}
+    </select>
+    <select id="showItem" resultType="Book">
+        select * from book where bookID=#{bookID}
+    </select>
+    <insert id="insertBook" parameterType="Book">
+        insert into book(bookID,bookNumber,bookName,author,press,cover,price,type,content,stock,id)
+        value (null,#{bookNumber},#{bookName},#{author},#{press},#{cover},#{price},#{type},#{content},0,#{id})
+    </insert>
+    <update id="updateBook">
+        update book set price=#{price},content=#{content} where bookID=#{bookID}
+    </update>
+    <update id="updateBookType">
+        update book set type=#{type} where bookID=#{bookID}
+    </update>
+    <delete id="deleteBook">
+        delete from book where bookID=#{bookID}
+    </delete>
+    <select id="searchBook" resultType="Book">
+        select * from book where concat(bookID,bookNumber,bookName,author,press,type) like "%"#{bookName}"%"
+    </select>
+    <update id="updateStock">
+        update book set stock=#{stock} where bookID=#{bookID}
+    </update>
+</mapper>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.project.bookstore.mapper.RecommendMapper">
+
+    <select id="listRelate" resultType="RelateDTO">
+        select * from relate
+    </select>
+    <select id="listRecommend" resultType="Recommend">
+        select * from recommend
+    </select>
+    <insert id="insertRecommend" parameterType="Recommend">
+        insert into recommend(bookID,bookName,author,cover,price)
+        value (#{bookID},#{bookName},#{author},#{cover},#{price})
+    </insert>
+    <delete id="deleteRecommend">
+        delete from recommend where bookID=#{bookID}
+    </delete>
+    <insert id="insertRelate" parameterType="RelateDTO">
+        insert into relate(uid,bookID,interest)
+        value (#{uid},#{bookID},1)
+    </insert>
+    <select id="selectRelate" resultType="RelateDTO">
+        select * from relate where uid=#{uid} and bookID=#{bookID}
+    </select>
+    <update id="updateRelate">
+        update relate set interest=2 where uid=#{uid} and bookID=#{bookID}
+    </update>
+</mapper>

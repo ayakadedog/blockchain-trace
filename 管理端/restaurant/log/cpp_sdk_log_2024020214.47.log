@@ -1,0 +1,12 @@
+info|2024-02-02 14:47:30.589137|[SDK][WS][SERVICE],[NEWOBJ][WsService]=00000171175189C0
+info|2024-02-02 14:47:30.589137|[RPCWS][SERVICE]init the local protocol,minVersion=1,maxVersion=1,module=2
+info|2024-02-02 14:47:30.592136|[DEFAULT][WS][INITIALIZER][initWsService]start websocket service as client,connected size=2
+info|2024-02-02 14:47:30.593136|[DEFAULT][WS][INITIALIZER][initWsService]initializer for websocket service,listenIP=,listenPort=0,disableSsl=false,server=false,client=true,threadPoolSize=8,maxMsgSize=33554432,msgTimeOut=-1,connected peers=2
+info|2024-02-02 14:47:30.593136|[bcos_sdk_create][NEWOBJ],sdk=00000171175592B0
+warning|2024-02-02 14:47:52.731109|[DEFAULT][WS][CONNECTOR][connectToWsServer]async_connect failed,error=由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。,endpoint=10.0.16.13:20201
+warning|2024-02-02 14:47:52.746836|[DEFAULT][WS][CONNECTOR][connectToWsServer]async_connect failed,error=由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。,endpoint=10.0.16.13:20200
+info|2024-02-02 14:47:52.747776|[SDK][WS][SERVICE][stop]stop websocket service successfully
+error|2024-02-02 14:47:52.747776|[bcos_sdk_start],sdk=00000171175592B0,errorMsg=C:\.hunter\_Base\0ba8099\ce384fc\4b614a0\Build\bcos-boostssl\Source\bcos-boostssl\websocket\WsService.cpp(223): Throw in function void __cdecl bcos::boostssl::ws::WsService::syncConnectToEndpoints(class std::shared_ptr<class std::set<struct bcos::boostssl::NodeIPEndpoint,struct std::less<struct bcos::boostssl::NodeIPEndpoint>,class std::allocator<struct bcos::boostssl::NodeIPEndpoint> > >)
+Dynamic exception type: struct boost::wrapexcept<class std::runtime_error>
+std::exception::what: [由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。:/10.0.16.13:20200, 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。:/10.0.16.13:20201]
+info|2024-02-02 14:47:52.747776|[bcos_sdk_start],sdk=00000171175592B0

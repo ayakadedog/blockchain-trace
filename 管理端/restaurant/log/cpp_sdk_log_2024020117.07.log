@@ -1,0 +1,431 @@
+info|2024-02-01 17:07:51.375656|[SDK][WS][SERVICE],[NEWOBJ][WsService]=000001B40BE95B90
+info|2024-02-01 17:07:51.375656|[RPCWS][SERVICE]init the local protocol,minVersion=1,maxVersion=1,module=2
+info|2024-02-01 17:07:51.378157|[DEFAULT][WS][INITIALIZER][initWsService]start websocket service as client,connected size=2
+info|2024-02-01 17:07:51.378157|[DEFAULT][WS][INITIALIZER][initWsService]initializer for websocket service,listenIP=,listenPort=0,disableSsl=false,server=false,client=true,threadPoolSize=8,maxMsgSize=33554432,msgTimeOut=-1,connected peers=2
+info|2024-02-01 17:07:51.378157|[bcos_sdk_create][NEWOBJ],sdk=000001B409D139F0
+info|2024-02-01 17:07:52.510671|[DEFAULT][WS][CONNECTOR][connectToWsServer]async_connect success,endpoint=192.168.81.141:20200
+info|2024-02-01 17:07:52.510671|[DEFAULT][WS][CONNECTOR][connectToWsServer]async_connect success,endpoint=192.168.81.141:20201
+info|2024-02-01 17:07:52.510671|[DEFAULT][WS][STREAM],[NEWOBJ][WsStream]=000001B409E7CAD0
+info|2024-02-01 17:07:52.510671|[DEFAULT][WS][STREAM],[NEWOBJ][WsStream]=000001B40C23D210
+info|2024-02-01 17:07:52.513673|[DEFAULT][BOOSTSSL][NODEINFO][NEW]SSLContext pubHex: 3082010a02820101009341101d7e830c3d6d3a72828a0341db31cb1134c146810f905ac4ec685e8c61072a35ba421f9d3fac0908db7667611c8744bdee795fec222c30dc79d23cb3c74b2f2509b538395e757617a78f9dbb0574d8dffa7da8b9654bdd9cbdd697340c783ee385db45a02046162d9b8c9b62ea9b060c5fa9fd8d4c3e4adbddb60a826032faff9bb8c64d49a6ea063627e8792f983aef14216c76e6dc45e2968470de7619cdec528429ebb0597544cc700cb4f935c8ddc22ea9a4d8c0d10e1bbde12d5528ac0b3935debf78e3a6bb840885131e8ece70647a1c7a939dbf93d995ae46e4457ddfcf4c2554aca2fbbd0dbe3701bbd1cc5048b72edd2477b8ac3099a7139d0203010001
+warning|2024-02-01 17:07:52.513673|[DEFAULT][BOOSTSSL][NODEINFO]Get ca basic failed
+info|2024-02-01 17:07:52.513673|[DEFAULT][BOOSTSSL][NODEINFO][NEW]SSLContext pubHex: 3082010a02820101009341101d7e830c3d6d3a72828a0341db31cb1134c146810f905ac4ec685e8c61072a35ba421f9d3fac0908db7667611c8744bdee795fec222c30dc79d23cb3c74b2f2509b538395e757617a78f9dbb0574d8dffa7da8b9654bdd9cbdd697340c783ee385db45a02046162d9b8c9b62ea9b060c5fa9fd8d4c3e4adbddb60a826032faff9bb8c64d49a6ea063627e8792f983aef14216c76e6dc45e2968470de7619cdec528429ebb0597544cc700cb4f935c8ddc22ea9a4d8c0d10e1bbde12d5528ac0b3935debf78e3a6bb840885131e8ece70647a1c7a939dbf93d995ae46e4457ddfcf4c2554aca2fbbd0dbe3701bbd1cc5048b72edd2477b8ac3099a7139d0203010001
+warning|2024-02-01 17:07:52.513673|[DEFAULT][BOOSTSSL][NODEINFO]Get ca basic failed
+info|2024-02-01 17:07:52.514171|[DEFAULT][BOOSTSSL][NODEINFO][NEW]SSLContext pubHex: 3082010a0282010100cb624740497a3ae96922b199cc9007b049430ead36e75f81a8b47500d097ba81d5a1d2079f5d019cc5d196aea7c6b95787d8d6536a59d6284176ca7b61580f21450fd7f8a2b756177391c1b92551b90401d36acb72e77954a56c149a82032224e2c955fd27f7e26791058086f27717169fe2e1e9c32600256065cb5c5215b609ca0169c354f5cd6f3d255b7b023769bafa458f0e13d8dec89207b8098b049fb8aa4fc44626f6ba0157cb20c378faf6396f177a29ffe4cc329b006ac66532c1d9997b47a98668d051af7a4da6cf72a9267f04f0fb870e718f7477e8acb62dec50781493e6f3a3dcd3294a6b122ba44ad519556b062352fdbb6fa7d71d8b204d8b0203010001
+info|2024-02-01 17:07:52.514171|[DEFAULT][BOOSTSSL][NODEINFO][NEW]SSLContext pubHex: 3082010a0282010100b7b7a697fc2b7333463be4052e54a070adc11f6264b4741682e2ba8ac0da8344243ed13cfe9fe7e1f2d2e4dd3f3a6244b231b07dc05bb6b44fb189c7a4ac5d972143eccd5e90ac477f4be8fb15fb13b1949b9858ef3895739ff011d1e3e5783414bf66e95a5db675b5eaa92ffae241d862527cc399ef1c77222a47f01a05711168de2a45534ed673b1df31fdce0c19ba5f9bf72f617a26f59c87200dd180697ccb2537bb0d527876ea9ca9cbe3452b81d8e349000929fd52dd6ba7e5c7c4f55ad69523a518ac1968bda0b4a608f93656fceedbd115952d715235e064bfe57118035eb59fe6344a74d119eedeb02179dd4f222e326e6ea5610683e0d1f01660270203010001
+info|2024-02-01 17:07:52.523677|[DEFAULT][WS][CONNECTOR][connectToWsServer]ssl async_handshake success,host=192.168.81.141,port=20201
+info|2024-02-01 17:07:52.523677|[DEFAULT][WS][CONNECTOR][connectToWsServer]ssl async_handshake success,host=192.168.81.141,port=20200
+info|2024-02-01 17:07:52.525171|[DEFAULT][WS][CONNECTOR][connectToWsServer]websocket handshake successfully,host=192.168.81.141,port=20201
+info|2024-02-01 17:07:52.525171|[DEFAULT][WS][CONNECTOR][connectToWsServer]websocket handshake successfully,host=192.168.81.141,port=20200
+info|2024-02-01 17:07:52.525171|[SDK][WS][SESSION],[NEWOBJ][WSSESSION]=000001B40C3F8EA0
+info|2024-02-01 17:07:52.525171|[SDK][WS][SESSION],[NEWOBJ][WSSESSION]=000001B40C44C520
+info|2024-02-01 17:07:52.525171|[SDK][WS][SERVICE][newSession]start the session,endPoint=192.168.81.141:20201
+info|2024-02-01 17:07:52.525171|[SDK][WS][SERVICE][newSession]start the session,endPoint=192.168.81.141:20200
+info|2024-02-01 17:07:52.525171|[SDK][WS][SERVICE][addSession]add session to mapping,connectedEndPoint=192.168.81.141:20201,endPoint=192.168.81.141:20201,result=true
+info|2024-02-01 17:07:52.525171|[SDK][WS][SERVICE][addSession]add session to mapping,connectedEndPoint=192.168.81.141:20200,endPoint=192.168.81.141:20200,result=true
+info|2024-02-01 17:07:52.525171|[SDK][WS][SERVICE][onConnect],endpoint=192.168.81.141:20201,connectedEndPoint=192.168.81.141:20201,refCount=6
+info|2024-02-01 17:07:52.525171|[SDK][WS][SERVICE][onConnect],endpoint=192.168.81.141:20200,connectedEndPoint=192.168.81.141:20200,refCount=6
+info|2024-02-01 17:07:52.525171|[RPCWS][SERVICE][startHandshake],endpoint=192.168.81.141:20201
+info|2024-02-01 17:07:52.525171|[RPCWS][SERVICE][startHandshake],endpoint=192.168.81.141:20200
+info|2024-02-01 17:07:52.525171|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:07:52.525171|[SDK][WS][SERVICE][start]start websocket service successfully,model=1,max msg size=33554432
+info|2024-02-01 17:07:52.525677|[SDK][WS][SESSION][startAsClient]websocket handshake successfully,endPoint=192.168.81.141:20200,session=000001B40C44C520
+info|2024-02-01 17:07:52.525677|[SDK][WS][SESSION][startAsClient]websocket handshake successfully,endPoint=192.168.81.141:20201,session=000001B40C3F8EA0
+info|2024-02-01 17:07:52.526676|[RPCWS][SERVICE][fromJson] new group info,groupInfo=,group=group0,chain=chain0,nodeSize=1
+info|2024-02-01 17:07:52.526676|[RPCWS][SERVICE][fromJson]parser protocol version,protocolVersion=1,groupInfoList size=1,groupBlockNumber size=1
+info|2024-02-01 17:07:52.526676|[RPCWS][SERVICE][updateGroupInfoByEp],endPoint=192.168.81.141:20200,group=group0,chainID=chain0,genesisConfig={"blockTxCountLimit":1000,"consensusLeaderPeriod":1,"consensusType":"pbft","sealerList":[{"nodeID":"39ed58e7d741e285fcd32475c962a1380cbd23c6cddb5aac7dbd65556c22ef9b52aeb57159fe29ceafb1e8af68b51141fa09b238a600ff7e92d1d08aee35c162","weight":1},{"nodeID":"778b9202ede63f4ba6bfb2fbaf69891ecf9d481506e3469275ffe70d7f980959ca9a85131fac70e32cbb077bdfeeec7eedc087e4e4c5cecf6bf840fdcc6a7dac","weight":1},{"nodeID":"9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17","weight":1},{"nodeID":"aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356","weight":1}],"txGasLimit":3000000000}
+,iniConfig=,nodesNum=1
+info|2024-02-01 17:07:52.526676|[RPCWS][SERVICE][updateGroupInfo],endPoint=192.168.81.141:20200,group=group0,chainID=chain0,nodesNum=1
+info|2024-02-01 17:07:52.527176|[RPCWS][SERVICE][clearGroupInfoByEp],endPoint=192.168.81.141:20200,group=group0
+info|2024-02-01 17:07:52.527176|[RPCWS][SERVICE][printGroupInfo],total count=1
+info|2024-02-01 17:07:52.527176|[RPCWS][SERVICE][printGroupInfo]group list,group=group0,count=1
+info|2024-02-01 17:07:52.527176|[RPCWS][SERVICE][printGroupInfo]node list,group=group0,node=aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356,count=1
+info|2024-02-01 17:07:52.527176|[RPCWS][SERVICE][updateGroupBlockNumber],groupID=group0,_blockNumber=155
+info|2024-02-01 17:07:52.527176|[AMOP][CLIENT][updateTopicsToRemote]send subscribe message to server,endpoint=192.168.81.141:20200,topics={"topics":[]}
+info|2024-02-01 17:07:52.527176|[RPCWS][SERVICE][startHandshake]handshake successfully,endPoint=192.168.81.141:20200,handshake version=1,groupInfoList size=1,groupBlockNumber size=1,handshake string={"groupBlockNumber":[{"group0":155}],"groupInfoList":[{"chainID":"chain0","genesisConfig":"{\"blockTxCountLimit\":1000,\"consensusLeaderPeriod\":1,\"consensusType\":\"pbft\",\"sealerList\":[{\"nodeID\":\"39ed58e7d741e285fcd32475c962a1380cbd23c6cddb5aac7dbd65556c22ef9b52aeb57159fe29ceafb1e8af68b51141fa09b238a600ff7e92d1d08aee35c162\",\"weight\":1},{\"nodeID\":\"778b9202ede63f4ba6bfb2fbaf69891ecf9d481506e3469275ffe70d7f980959ca9a85131fac70e32cbb077bdfeeec7eedc087e4e4c5cecf6bf840fdcc6a7dac\",\"weight\":1},{\"nodeID\":\"9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17\",\"weight\":1},{\"nodeID\":\"aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356\",\"weight\":1}],\"txGasLimit\":3000000000}\n","groupID":"group0","iniConfig":"","nodeList":[{"iniConfig":"{\"binaryInfo\":{\"buildTime\":\"20231120 09:26:49\",\"gitCommitHash\":\"773c82d4289698e0adf0321dd5c8ba0f3d4e9aea\",\"platform\":\"Linux/g++\",\"version\":\"3.5.0\"},\"chainID\":\"chain0\",\"gatewayServiceName\":\"\",\"groupID\":\"group0\",\"isAuthCheck\":false,\"isSerialExecute\":true,\"isWasm\":false,\"nodeID\":\"aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356\",\"nodeName\":\"aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356\",\"rpcServiceName\":\"\",\"smCryptoType\":false}\n","microService":false,"name":"aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356","nodeID":"aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356","protocol":{"compatibilityVersion":50659328,"maxSupportedVersion":2,"minSupportedVersion":0},"serviceInfo":[{"serviceName":"LedgerServiceObj","type":2},{"serviceName":"SchedulerServiceObj","type":3},{"serviceName":"FrontServiceObj","type":4},{"serviceName":"","type":6},{"serviceName":"","type":7},{"serviceName":"TxPoolServiceObj","type":8}],"type":0}]}],"protocolVersion":1}
+info|2024-02-01 17:07:52.533677|[RPCWS][SERVICE][fromJson] new group info,groupInfo=,group=group0,chain=chain0,nodeSize=1
+info|2024-02-01 17:07:52.533677|[RPCWS][SERVICE][fromJson]parser protocol version,protocolVersion=1,groupInfoList size=1,groupBlockNumber size=1
+info|2024-02-01 17:07:52.533677|[RPCWS][SERVICE][updateGroupInfoByEp],endPoint=192.168.81.141:20201,group=group0,chainID=chain0,genesisConfig={"blockTxCountLimit":1000,"consensusLeaderPeriod":1,"consensusType":"pbft","sealerList":[{"nodeID":"39ed58e7d741e285fcd32475c962a1380cbd23c6cddb5aac7dbd65556c22ef9b52aeb57159fe29ceafb1e8af68b51141fa09b238a600ff7e92d1d08aee35c162","weight":1},{"nodeID":"778b9202ede63f4ba6bfb2fbaf69891ecf9d481506e3469275ffe70d7f980959ca9a85131fac70e32cbb077bdfeeec7eedc087e4e4c5cecf6bf840fdcc6a7dac","weight":1},{"nodeID":"9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17","weight":1},{"nodeID":"aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356","weight":1}],"txGasLimit":3000000000}
+,iniConfig=,nodesNum=1
+info|2024-02-01 17:07:52.533677|[RPCWS][SERVICE][updateGroupInfo],endPoint=192.168.81.141:20201,group=group0,chainID=chain0,nodesNum=1
+info|2024-02-01 17:07:52.533677|[RPCWS][SERVICE][clearGroupInfoByEp],endPoint=192.168.81.141:20201,group=group0
+info|2024-02-01 17:07:52.533677|[RPCWS][SERVICE][printGroupInfo],total count=1
+info|2024-02-01 17:07:52.533677|[RPCWS][SERVICE][printGroupInfo]group list,group=group0,count=2
+info|2024-02-01 17:07:52.533677|[RPCWS][SERVICE][printGroupInfo]node list,group=group0,node=aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356,count=1
+info|2024-02-01 17:07:52.533677|[RPCWS][SERVICE][printGroupInfo]node list,group=group0,node=9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17,count=1
+info|2024-02-01 17:07:52.534177|[AMOP][CLIENT][updateTopicsToRemote]send subscribe message to server,endpoint=192.168.81.141:20201,topics={"topics":[]}
+info|2024-02-01 17:07:52.534177|[RPCWS][SERVICE][startHandshake]handshake successfully,endPoint=192.168.81.141:20201,handshake version=1,groupInfoList size=1,groupBlockNumber size=1,handshake string={"groupBlockNumber":[{"group0":155}],"groupInfoList":[{"chainID":"chain0","genesisConfig":"{\"blockTxCountLimit\":1000,\"consensusLeaderPeriod\":1,\"consensusType\":\"pbft\",\"sealerList\":[{\"nodeID\":\"39ed58e7d741e285fcd32475c962a1380cbd23c6cddb5aac7dbd65556c22ef9b52aeb57159fe29ceafb1e8af68b51141fa09b238a600ff7e92d1d08aee35c162\",\"weight\":1},{\"nodeID\":\"778b9202ede63f4ba6bfb2fbaf69891ecf9d481506e3469275ffe70d7f980959ca9a85131fac70e32cbb077bdfeeec7eedc087e4e4c5cecf6bf840fdcc6a7dac\",\"weight\":1},{\"nodeID\":\"9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17\",\"weight\":1},{\"nodeID\":\"aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356\",\"weight\":1}],\"txGasLimit\":3000000000}\n","groupID":"group0","iniConfig":"","nodeList":[{"iniConfig":"{\"binaryInfo\":{\"buildTime\":\"20231120 09:26:49\",\"gitCommitHash\":\"773c82d4289698e0adf0321dd5c8ba0f3d4e9aea\",\"platform\":\"Linux/g++\",\"version\":\"3.5.0\"},\"chainID\":\"chain0\",\"gatewayServiceName\":\"\",\"groupID\":\"group0\",\"isAuthCheck\":false,\"isSerialExecute\":true,\"isWasm\":false,\"nodeID\":\"9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17\",\"nodeName\":\"9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17\",\"rpcServiceName\":\"\",\"smCryptoType\":false}\n","microService":false,"name":"9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17","nodeID":"9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17","protocol":{"compatibilityVersion":50659328,"maxSupportedVersion":2,"minSupportedVersion":0},"serviceInfo":[{"serviceName":"LedgerServiceObj","type":2},{"serviceName":"SchedulerServiceObj","type":3},{"serviceName":"FrontServiceObj","type":4},{"serviceName":"","type":6},{"serviceName":"","type":7},{"serviceName":"TxPoolServiceObj","type":8}],"type":0}]}],"protocolVersion":1}
+info|2024-02-01 17:07:52.632395|[RPCWS][SERVICE][waitForConnectionEstablish]wait for websocket connection handshake success,suc count=2
+info|2024-02-01 17:07:52.632395|[RPC][IMPL][start]start rpc
+info|2024-02-01 17:07:52.632395|[SDK][WS][SERVICE][start]websocket service is running
+info|2024-02-01 17:07:52.740360|[RPCWS][SERVICE][waitForConnectionEstablish]wait for websocket connection handshake success,suc count=2
+info|2024-02-01 17:07:52.740360|[AMOP][CLIENT][start]start amop
+info|2024-02-01 17:07:52.740360|[SDK][WS][SERVICE][start]websocket service is running
+info|2024-02-01 17:07:52.848178|[RPCWS][SERVICE][waitForConnectionEstablish]wait for websocket connection handshake success,suc count=2
+info|2024-02-01 17:07:52.848678|[EVENT][SUB][start]start event sub successfully,sendMsgTimeout=-1,reconnectPeriod=20000
+info|2024-02-01 17:07:52.848678|[SDK][WS][SERVICE][start]websocket service is running
+info|2024-02-01 17:07:52.955166|[RPCWS][SERVICE][waitForConnectionEstablish]wait for websocket connection handshake success,suc count=2
+info|2024-02-01 17:07:52.955166|[bcos_sdk_start],sdk=000001B409D139F0
+info|2024-02-01 17:07:52.956170|[findClass]add class to cache,fullClassName=org/fisco/bcos/sdk/jni/common/Response
+info|2024-02-01 17:07:52.956170|[RPCWS][SERVICE][getGroupInfo],count=2
+info|2024-02-01 17:07:52.957170|[RPC][IMPL][getGroupInfo][get group info from cache],hitCache=true,response={"id":1,"jsonrpc":"2.0","result":{"chainID":"chain0","genesisConfig":"{\"blockTxCountLimit\":1000,\"consensusLeaderPeriod\":1,\"consensusType\":\"pbft\",\"sealerList\":[{\"nodeID\":\"39ed58e7d741e285fcd32475c962a1380cbd23c6cddb5aac7dbd65556c22ef9b52aeb57159fe29ceafb1e8af68b51141fa09b238a600ff7e92d1d08aee35c162\",\"weight\":1},{\"nodeID\":\"778b9202ede63f4ba6bfb2fbaf69891ecf9d481506e3469275ffe70d7f980959ca9a85131fac70e32cbb077bdfeeec7eedc087e4e4c5cecf6bf840fdcc6a7dac\",\"weight\":1},{\"nodeID\":\"9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17\",\"weight\":1},{\"nodeID\":\"aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356\",\"weight\":1}],\"txGasLimit\":3000000000}\n","groupID":"group0","iniConfig":"","nodeList":[{"iniConfig":"{\"binaryInfo\":{\"buildTime\":\"20231120 09:26:49\",\"gitCommitHash\":\"773c82d4289698e0adf0321dd5c8ba0f3d4e9aea\",\"platform\":\"Linux/g++\",\"version\":\"3.5.0\"},\"chainID\":\"chain0\",\"gatewayServiceName\":\"\",\"groupID\":\"group0\",\"isAuthCheck\":false,\"isSerialExecute\":true,\"isWasm\":false,\"nodeID\":\"9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17\",\"nodeName\":\"9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17\",\"rpcServiceName\":\"\",\"smCryptoType\":false}\n","name":"9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17","protocol":{"compatibilityVersion":50659328,"maxSupportedVersion":2,"minSupportedVersion":0},"serviceInfo":[{"serviceName":"LedgerServiceObj","type":2},{"serviceName":"SchedulerServiceObj","type":3},{"serviceName":"FrontServiceObj","type":4},{"serviceName":"","type":6},{"serviceName":"","type":7},{"serviceName":"TxPoolServiceObj","type":8}],"type":0},{"iniConfig":"{\"binaryInfo\":{\"buildTime\":\"20231120 09:26:49\",\"gitCommitHash\":\"773c82d4289698e0adf0321dd5c8ba0f3d4e9aea\",\"platform\":\"Linux/g++\",\"version\":\"3.5.0\"},\"chainID\":\"chain0\",\"gatewayServiceName\":\"\",\"groupID\":\"group0\",\"isAuthCheck\":false,\"isSerialExecute\":true,\"isWasm\":false,\"nodeID\":\"aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356\",\"nodeName\":\"aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356\",\"rpcServiceName\":\"\",\"smCryptoType\":false}\n","name":"aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356","protocol":{"compatibilityVersion":50659328,"maxSupportedVersion":2,"minSupportedVersion":0},"serviceInfo":[{"serviceName":"LedgerServiceObj","type":2},{"serviceName":"SchedulerServiceObj","type":3},{"serviceName":"FrontServiceObj","type":4},{"serviceName":"","type":6},{"serviceName":"","type":7},{"serviceName":"TxPoolServiceObj","type":8}],"type":0}],"smCryptoType":false,"wasm":false}}
+info|2024-02-01 17:07:54.643798|[RPC][BLOCK][NUMBER][fromJson],group=group0,node=9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17,blockNumber=156
+info|2024-02-01 17:07:54.643798|[RPCWS][SERVICE][onRecvBlockNotifier]receive block number notifier,group=group0,node=9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17,blockNumber=156
+info|2024-02-01 17:07:54.643798|[RPCWS][SERVICE][updateGroupBlockNumber],groupID=group0,_blockNumber=156
+info|2024-02-01 17:07:54.643798|[RPCWS][SERVICE][onRecvBlockNotifier]block notifier callback,group=group0,node=9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17,blockNumber=156
+info|2024-02-01 17:07:54.643798|[WS]receive block notify,endpoint=192.168.81.141:20201,blk={
+	"blockNumber" : 156,
+	"group" : "group0",
+	"nodeName" : "9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17"
+}
+info|2024-02-01 17:07:54.645297|[RPC][BLOCK][NUMBER][fromJson],group=group0,node=aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356,blockNumber=156
+info|2024-02-01 17:07:54.645297|[RPCWS][SERVICE][onRecvBlockNotifier]receive block number notifier,group=group0,node=aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356,blockNumber=156
+info|2024-02-01 17:07:54.645297|[WS]receive block notify,endpoint=192.168.81.141:20200,blk={
+	"blockNumber" : 156,
+	"group" : "group0",
+	"nodeName" : "aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356"
+}
+info|2024-02-01 17:08:12.534535|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:08:12.856860|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:08:32.538567|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:08:32.860550|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:08:52.549306|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:08:52.873943|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:09:12.563790|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:09:12.886950|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:09:32.566397|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:09:32.889296|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:09:52.579681|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:09:52.889748|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:10:12.588183|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:10:12.896581|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:10:32.596842|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:10:32.904642|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:10:52.597326|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:10:52.905558|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:11:12.599212|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:11:12.907273|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:11:32.611593|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:11:32.921575|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:11:52.619062|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:11:52.928207|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:12:12.632162|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:12:12.942158|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:12:32.644373|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:12:32.954466|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:12:52.646205|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:12:52.954836|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:13:12.657860|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:13:12.966216|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:13:32.664681|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:13:32.971723|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:13:52.679156|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:13:52.985879|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:14:12.679411|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:14:12.986289|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:14:32.681452|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:14:32.991022|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:14:52.681769|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:14:52.995384|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:15:12.695163|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:15:13.003896|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:15:32.709090|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:15:33.018237|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:15:52.715729|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:15:53.022497|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:16:12.719398|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:16:13.028128|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:16:32.733726|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:16:33.041149|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:16:52.735820|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:16:53.043266|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:17:12.748987|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:17:13.057009|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:17:32.758930|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:17:33.067035|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:17:52.765225|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:17:53.072793|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:18:12.773618|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:18:13.080118|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:18:32.780715|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:18:33.080197|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:18:52.781192|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:18:53.087341|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:19:12.792733|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:19:13.099430|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:19:32.802423|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:19:33.109188|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:19:52.815305|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:19:53.109805|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:20:12.824558|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:20:13.119031|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:20:32.834076|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:20:33.128575|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:20:52.844566|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:20:53.139067|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:21:12.855109|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:21:13.149580|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:21:32.865623|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:21:33.160123|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:21:52.876108|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:21:53.170610|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:22:12.886630|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:22:13.181166|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:22:32.886824|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:22:33.181324|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:22:52.886842|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:22:53.185840|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:23:12.900178|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:23:13.186175|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:23:32.910092|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:23:33.189060|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:23:52.920394|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:23:53.199424|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:24:12.927712|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:24:13.206712|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:24:32.937157|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:24:33.213484|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:24:52.952161|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:24:53.213812|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:25:12.965396|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:25:13.226773|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:25:32.980570|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:25:33.242092|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:25:52.980601|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:25:53.250017|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:26:12.991731|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:26:13.253485|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:26:32.992674|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:26:33.254462|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:26:52.998351|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:26:53.259463|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:27:13.005018|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:27:13.266844|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:27:33.015336|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:27:33.276416|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:27:53.022097|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:27:53.283283|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:28:13.027620|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:28:13.288786|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:28:33.039694|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:28:33.301488|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:28:53.048203|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:28:53.309903|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:29:13.064825|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:29:13.310825|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:29:33.071235|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:29:33.316875|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:29:53.076394|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:29:53.323837|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:30:13.091853|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:30:13.339094|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:30:33.106678|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:30:33.354150|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:30:53.108115|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:30:53.355639|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:31:13.115008|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:31:13.362313|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:31:33.117738|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:31:33.364919|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:31:53.124546|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:31:53.372547|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:32:13.138384|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:32:13.384610|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:32:33.145135|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:32:33.390499|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:32:53.158710|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:32:53.405104|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:33:13.165015|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:33:13.412797|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:33:33.176263|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:33:33.423830|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+warning|2024-02-01 17:33:37.112890|[SDK][WS][SESSION][asyncRead],error=The socket was closed due to a timeout,endpoint=192.168.81.141:20201,session=000001B40C3F8EA0
+info|2024-02-01 17:33:37.112890|[SDK][WS][SESSION][drop],reason=4294963295,endpoint=192.168.81.141:20201,session=000001B40C3F8EA0
+info|2024-02-01 17:33:37.112890|[SDK][WS][SESSION][drop],reason=4294963295,endpoint=192.168.81.141:20201,cb size=0,session=000001B40C3F8EA0
+info|2024-02-01 17:33:37.112890|[DEFAULT][WS][STREAM]the real action to close the stream,this=000001B40C23D210
+info|2024-02-01 17:33:37.113327|[SDK][WS][SERVICE][removeSession],endpoint=192.168.81.141:20201
+info|2024-02-01 17:33:37.113826|[EVENT][SUB][suspendTasks]suspend event sub tasks for disconnection,endPoint=192.168.81.141:20201,count=0
+info|2024-02-01 17:33:37.113826|[SDK][WS][SERVICE][onDisconnect],endpoint=192.168.81.141:20201,connectedEndPoint=192.168.81.141:20201,refCount=4
+info|2024-02-01 17:33:37.113826|[RPCWS][SERVICE][clearGroupInfoByEp],endPoint=192.168.81.141:20201
+info|2024-02-01 17:33:37.113826|[RPCWS][SERVICE][clearGroupInfoByEp]group2Node2Endpoints, clear node,group=group0,node=9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17
+info|2024-02-01 17:33:37.114328|[RPCWS][SERVICE][clearGroupInfoByEp]clear endPoint,endPoint=192.168.81.141:20201
+info|2024-02-01 17:33:37.114328|[RPCWS][SERVICE][printGroupInfo],total count=1
+info|2024-02-01 17:33:37.114328|[RPCWS][SERVICE][printGroupInfo]group list,group=group0,count=1
+info|2024-02-01 17:33:37.114328|[RPCWS][SERVICE][printGroupInfo]node list,group=group0,node=aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356,count=1
+info|2024-02-01 17:33:37.114328|[SDK][WS][SESSION],[DELOBJ][WSSESSION]=000001B40C3F8EA0
+info|2024-02-01 17:33:37.114328|[DEFAULT][WS][STREAM],[DELOBJ][WsStream]=000001B40C23D210
+warning|2024-02-01 17:33:37.195369|[SDK][WS][SESSION][asyncRead],error=The socket was closed due to a timeout,endpoint=192.168.81.141:20200,session=000001B40C44C520
+info|2024-02-01 17:33:37.195369|[SDK][WS][SESSION][drop],reason=4294963295,endpoint=192.168.81.141:20200,session=000001B40C44C520
+info|2024-02-01 17:33:37.195869|[SDK][WS][SESSION][drop],reason=4294963295,endpoint=192.168.81.141:20200,cb size=0,session=000001B40C44C520
+info|2024-02-01 17:33:37.195869|[DEFAULT][WS][STREAM]the real action to close the stream,this=000001B409E7CAD0
+info|2024-02-01 17:33:37.196223|[SDK][WS][SERVICE][removeSession],endpoint=192.168.81.141:20200
+info|2024-02-01 17:33:37.196223|[EVENT][SUB][suspendTasks]suspend event sub tasks for disconnection,endPoint=192.168.81.141:20200,count=0
+info|2024-02-01 17:33:37.196369|[SDK][WS][SERVICE][onDisconnect],endpoint=192.168.81.141:20200,connectedEndPoint=192.168.81.141:20200,refCount=4
+info|2024-02-01 17:33:37.196369|[RPCWS][SERVICE][clearGroupInfoByEp],endPoint=192.168.81.141:20200
+info|2024-02-01 17:33:37.196369|[RPCWS][SERVICE][clearGroupInfoByEp]group2Node2Endpoints, clear node,group=group0,node=aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356
+info|2024-02-01 17:33:37.196369|[RPCWS][SERVICE][clearGroupInfoByEp]group2Node2Endpoints, clear group,group=group0
+info|2024-02-01 17:33:37.196369|[RPCWS][SERVICE][clearGroupInfoByEp]clear endPoint,endPoint=192.168.81.141:20200
+info|2024-02-01 17:33:37.196369|[RPCWS][SERVICE][printGroupInfo],total count=0
+info|2024-02-01 17:33:37.196369|[SDK][WS][SESSION],[DELOBJ][WSSESSION]=000001B40C44C520
+info|2024-02-01 17:33:37.196369|[DEFAULT][WS][STREAM],[DELOBJ][WsStream]=000001B409E7CAD0
+info|2024-02-01 17:33:53.185577|[SDK][WS][SERVICE]reconnect,peer=192.168.81.141:20200
+info|2024-02-01 17:33:53.185577|[SDK][WS][SERVICE]reconnect,peer=192.168.81.141:20201
+info|2024-02-01 17:33:53.187084|[SDK][WS][SERVICE]connected nodes,count=0
+info|2024-02-01 17:33:53.189084|[DEFAULT][WS][CONNECTOR][connectToWsServer]async_connect success,endpoint=192.168.81.141:20200
+info|2024-02-01 17:33:53.189578|[DEFAULT][WS][CONNECTOR][connectToWsServer]async_connect success,endpoint=192.168.81.141:20201
+info|2024-02-01 17:33:53.189578|[DEFAULT][WS][STREAM],[NEWOBJ][WsStream]=000001B40C475DB0
+info|2024-02-01 17:33:53.189578|[DEFAULT][WS][STREAM],[NEWOBJ][WsStream]=000001B40BE25640
+info|2024-02-01 17:33:53.191577|[DEFAULT][BOOSTSSL][NODEINFO][NEW]SSLContext pubHex: 3082010a02820101009341101d7e830c3d6d3a72828a0341db31cb1134c146810f905ac4ec685e8c61072a35ba421f9d3fac0908db7667611c8744bdee795fec222c30dc79d23cb3c74b2f2509b538395e757617a78f9dbb0574d8dffa7da8b9654bdd9cbdd697340c783ee385db45a02046162d9b8c9b62ea9b060c5fa9fd8d4c3e4adbddb60a826032faff9bb8c64d49a6ea063627e8792f983aef14216c76e6dc45e2968470de7619cdec528429ebb0597544cc700cb4f935c8ddc22ea9a4d8c0d10e1bbde12d5528ac0b3935debf78e3a6bb840885131e8ece70647a1c7a939dbf93d995ae46e4457ddfcf4c2554aca2fbbd0dbe3701bbd1cc5048b72edd2477b8ac3099a7139d0203010001
+warning|2024-02-01 17:33:53.191577|[DEFAULT][BOOSTSSL][NODEINFO]Get ca basic failed
+info|2024-02-01 17:33:53.191577|[DEFAULT][BOOSTSSL][NODEINFO][NEW]SSLContext pubHex: 3082010a02820101009341101d7e830c3d6d3a72828a0341db31cb1134c146810f905ac4ec685e8c61072a35ba421f9d3fac0908db7667611c8744bdee795fec222c30dc79d23cb3c74b2f2509b538395e757617a78f9dbb0574d8dffa7da8b9654bdd9cbdd697340c783ee385db45a02046162d9b8c9b62ea9b060c5fa9fd8d4c3e4adbddb60a826032faff9bb8c64d49a6ea063627e8792f983aef14216c76e6dc45e2968470de7619cdec528429ebb0597544cc700cb4f935c8ddc22ea9a4d8c0d10e1bbde12d5528ac0b3935debf78e3a6bb840885131e8ece70647a1c7a939dbf93d995ae46e4457ddfcf4c2554aca2fbbd0dbe3701bbd1cc5048b72edd2477b8ac3099a7139d0203010001
+warning|2024-02-01 17:33:53.191577|[DEFAULT][BOOSTSSL][NODEINFO]Get ca basic failed
+info|2024-02-01 17:33:53.191577|[DEFAULT][BOOSTSSL][NODEINFO][NEW]SSLContext pubHex: 3082010a0282010100b7b7a697fc2b7333463be4052e54a070adc11f6264b4741682e2ba8ac0da8344243ed13cfe9fe7e1f2d2e4dd3f3a6244b231b07dc05bb6b44fb189c7a4ac5d972143eccd5e90ac477f4be8fb15fb13b1949b9858ef3895739ff011d1e3e5783414bf66e95a5db675b5eaa92ffae241d862527cc399ef1c77222a47f01a05711168de2a45534ed673b1df31fdce0c19ba5f9bf72f617a26f59c87200dd180697ccb2537bb0d527876ea9ca9cbe3452b81d8e349000929fd52dd6ba7e5c7c4f55ad69523a518ac1968bda0b4a608f93656fceedbd115952d715235e064bfe57118035eb59fe6344a74d119eedeb02179dd4f222e326e6ea5610683e0d1f01660270203010001
+info|2024-02-01 17:33:53.191577|[DEFAULT][BOOSTSSL][NODEINFO][NEW]SSLContext pubHex: 3082010a0282010100cb624740497a3ae96922b199cc9007b049430ead36e75f81a8b47500d097ba81d5a1d2079f5d019cc5d196aea7c6b95787d8d6536a59d6284176ca7b61580f21450fd7f8a2b756177391c1b92551b90401d36acb72e77954a56c149a82032224e2c955fd27f7e26791058086f27717169fe2e1e9c32600256065cb5c5215b609ca0169c354f5cd6f3d255b7b023769bafa458f0e13d8dec89207b8098b049fb8aa4fc44626f6ba0157cb20c378faf6396f177a29ffe4cc329b006ac66532c1d9997b47a98668d051af7a4da6cf72a9267f04f0fb870e718f7477e8acb62dec50781493e6f3a3dcd3294a6b122ba44ad519556b062352fdbb6fa7d71d8b204d8b0203010001
+info|2024-02-01 17:33:53.198081|[DEFAULT][WS][CONNECTOR][connectToWsServer]ssl async_handshake success,host=192.168.81.141,port=20201
+info|2024-02-01 17:33:53.198081|[DEFAULT][WS][CONNECTOR][connectToWsServer]ssl async_handshake success,host=192.168.81.141,port=20200
+info|2024-02-01 17:33:53.199079|[DEFAULT][WS][CONNECTOR][connectToWsServer]websocket handshake successfully,host=192.168.81.141,port=20200
+info|2024-02-01 17:33:53.199079|[DEFAULT][WS][CONNECTOR][connectToWsServer]websocket handshake successfully,host=192.168.81.141,port=20201
+info|2024-02-01 17:33:53.199079|[SDK][WS][SESSION],[NEWOBJ][WSSESSION]=000001B40C44C520
+info|2024-02-01 17:33:53.199079|[SDK][WS][SERVICE][newSession]start the session,endPoint=192.168.81.141:20200
+info|2024-02-01 17:33:53.199079|[SDK][WS][SESSION],[NEWOBJ][WSSESSION]=000001B40C44CD00
+info|2024-02-01 17:33:53.199079|[SDK][WS][SERVICE][addSession]add session to mapping,connectedEndPoint=192.168.81.141:20200,endPoint=192.168.81.141:20200,result=true
+info|2024-02-01 17:33:53.199079|[SDK][WS][SERVICE][newSession]start the session,endPoint=192.168.81.141:20201
+info|2024-02-01 17:33:53.199079|[SDK][WS][SERVICE][onConnect],endpoint=192.168.81.141:20200,connectedEndPoint=192.168.81.141:20200,refCount=6
+info|2024-02-01 17:33:53.199079|[SDK][WS][SERVICE][addSession]add session to mapping,connectedEndPoint=192.168.81.141:20201,endPoint=192.168.81.141:20201,result=true
+info|2024-02-01 17:33:53.199079|[SDK][WS][SERVICE][onConnect],endpoint=192.168.81.141:20201,connectedEndPoint=192.168.81.141:20201,refCount=6
+info|2024-02-01 17:33:53.199079|[RPCWS][SERVICE][startHandshake],endpoint=192.168.81.141:20200
+info|2024-02-01 17:33:53.199079|[RPCWS][SERVICE][startHandshake],endpoint=192.168.81.141:20201
+info|2024-02-01 17:33:53.199577|[SDK][WS][SESSION][startAsClient]websocket handshake successfully,endPoint=192.168.81.141:20200,session=000001B40C44C520
+info|2024-02-01 17:33:53.199577|[SDK][WS][SESSION][startAsClient]websocket handshake successfully,endPoint=192.168.81.141:20201,session=000001B40C44CD00
+info|2024-02-01 17:33:53.201077|[RPCWS][SERVICE][fromJson] new group info,groupInfo=,group=group0,chain=chain0,nodeSize=1
+info|2024-02-01 17:33:53.201582|[RPCWS][SERVICE][fromJson]parser protocol version,protocolVersion=1,groupInfoList size=1,groupBlockNumber size=1
+info|2024-02-01 17:33:53.201582|[RPCWS][SERVICE][updateGroupInfoByEp],endPoint=192.168.81.141:20200,group=group0,chainID=chain0,genesisConfig={"blockTxCountLimit":1000,"consensusLeaderPeriod":1,"consensusType":"pbft","sealerList":[{"nodeID":"39ed58e7d741e285fcd32475c962a1380cbd23c6cddb5aac7dbd65556c22ef9b52aeb57159fe29ceafb1e8af68b51141fa09b238a600ff7e92d1d08aee35c162","weight":1},{"nodeID":"778b9202ede63f4ba6bfb2fbaf69891ecf9d481506e3469275ffe70d7f980959ca9a85131fac70e32cbb077bdfeeec7eedc087e4e4c5cecf6bf840fdcc6a7dac","weight":1},{"nodeID":"9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17","weight":1},{"nodeID":"aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356","weight":1}],"txGasLimit":3000000000}
+,iniConfig=,nodesNum=1
+info|2024-02-01 17:33:53.201582|[RPCWS][SERVICE][updateGroupInfo],endPoint=192.168.81.141:20200,group=group0,chainID=chain0,nodesNum=1
+info|2024-02-01 17:33:53.201582|[RPCWS][SERVICE][clearGroupInfoByEp],endPoint=192.168.81.141:20200,group=group0
+info|2024-02-01 17:33:53.201582|[RPCWS][SERVICE][printGroupInfo],total count=1
+info|2024-02-01 17:33:53.201582|[RPCWS][SERVICE][printGroupInfo]group list,group=group0,count=1
+info|2024-02-01 17:33:53.201582|[RPCWS][SERVICE][printGroupInfo]node list,group=group0,node=aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356,count=1
+info|2024-02-01 17:33:53.201582|[AMOP][CLIENT][updateTopicsToRemote]send subscribe message to server,endpoint=192.168.81.141:20200,topics={"topics":[]}
+info|2024-02-01 17:33:53.201582|[RPCWS][SERVICE][startHandshake]handshake successfully,endPoint=192.168.81.141:20200,handshake version=1,groupInfoList size=1,groupBlockNumber size=1,handshake string={"groupBlockNumber":[{"group0":156}],"groupInfoList":[{"chainID":"chain0","genesisConfig":"{\"blockTxCountLimit\":1000,\"consensusLeaderPeriod\":1,\"consensusType\":\"pbft\",\"sealerList\":[{\"nodeID\":\"39ed58e7d741e285fcd32475c962a1380cbd23c6cddb5aac7dbd65556c22ef9b52aeb57159fe29ceafb1e8af68b51141fa09b238a600ff7e92d1d08aee35c162\",\"weight\":1},{\"nodeID\":\"778b9202ede63f4ba6bfb2fbaf69891ecf9d481506e3469275ffe70d7f980959ca9a85131fac70e32cbb077bdfeeec7eedc087e4e4c5cecf6bf840fdcc6a7dac\",\"weight\":1},{\"nodeID\":\"9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17\",\"weight\":1},{\"nodeID\":\"aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356\",\"weight\":1}],\"txGasLimit\":3000000000}\n","groupID":"group0","iniConfig":"","nodeList":[{"iniConfig":"{\"binaryInfo\":{\"buildTime\":\"20231120 09:26:49\",\"gitCommitHash\":\"773c82d4289698e0adf0321dd5c8ba0f3d4e9aea\",\"platform\":\"Linux/g++\",\"version\":\"3.5.0\"},\"chainID\":\"chain0\",\"gatewayServiceName\":\"\",\"groupID\":\"group0\",\"isAuthCheck\":false,\"isSerialExecute\":true,\"isWasm\":false,\"nodeID\":\"aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356\",\"nodeName\":\"aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356\",\"rpcServiceName\":\"\",\"smCryptoType\":false}\n","microService":false,"name":"aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356","nodeID":"aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356","protocol":{"compatibilityVersion":50659328,"maxSupportedVersion":2,"minSupportedVersion":0},"serviceInfo":[{"serviceName":"LedgerServiceObj","type":2},{"serviceName":"SchedulerServiceObj","type":3},{"serviceName":"FrontServiceObj","type":4},{"serviceName":"","type":6},{"serviceName":"","type":7},{"serviceName":"TxPoolServiceObj","type":8}],"type":0}]}],"protocolVersion":1}
+info|2024-02-01 17:33:53.202081|[RPCWS][SERVICE][fromJson] new group info,groupInfo=,group=group0,chain=chain0,nodeSize=1
+info|2024-02-01 17:33:53.202081|[RPCWS][SERVICE][fromJson]parser protocol version,protocolVersion=1,groupInfoList size=1,groupBlockNumber size=1
+info|2024-02-01 17:33:53.202081|[RPCWS][SERVICE][updateGroupInfoByEp],endPoint=192.168.81.141:20201,group=group0,chainID=chain0,genesisConfig={"blockTxCountLimit":1000,"consensusLeaderPeriod":1,"consensusType":"pbft","sealerList":[{"nodeID":"39ed58e7d741e285fcd32475c962a1380cbd23c6cddb5aac7dbd65556c22ef9b52aeb57159fe29ceafb1e8af68b51141fa09b238a600ff7e92d1d08aee35c162","weight":1},{"nodeID":"778b9202ede63f4ba6bfb2fbaf69891ecf9d481506e3469275ffe70d7f980959ca9a85131fac70e32cbb077bdfeeec7eedc087e4e4c5cecf6bf840fdcc6a7dac","weight":1},{"nodeID":"9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17","weight":1},{"nodeID":"aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356","weight":1}],"txGasLimit":3000000000}
+,iniConfig=,nodesNum=1
+info|2024-02-01 17:33:53.202081|[RPCWS][SERVICE][updateGroupInfo],endPoint=192.168.81.141:20201,group=group0,chainID=chain0,nodesNum=1
+info|2024-02-01 17:33:53.202081|[RPCWS][SERVICE][clearGroupInfoByEp],endPoint=192.168.81.141:20201,group=group0
+info|2024-02-01 17:33:53.202081|[RPCWS][SERVICE][printGroupInfo],total count=1
+info|2024-02-01 17:33:53.202081|[RPCWS][SERVICE][printGroupInfo]group list,group=group0,count=2
+info|2024-02-01 17:33:53.202081|[RPCWS][SERVICE][printGroupInfo]node list,group=group0,node=aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356,count=1
+info|2024-02-01 17:33:53.202081|[RPCWS][SERVICE][printGroupInfo]node list,group=group0,node=9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17,count=1
+info|2024-02-01 17:33:53.202081|[AMOP][CLIENT][updateTopicsToRemote]send subscribe message to server,endpoint=192.168.81.141:20201,topics={"topics":[]}
+info|2024-02-01 17:33:53.202081|[RPCWS][SERVICE][startHandshake]handshake successfully,endPoint=192.168.81.141:20201,handshake version=1,groupInfoList size=1,groupBlockNumber size=1,handshake string={"groupBlockNumber":[{"group0":156}],"groupInfoList":[{"chainID":"chain0","genesisConfig":"{\"blockTxCountLimit\":1000,\"consensusLeaderPeriod\":1,\"consensusType\":\"pbft\",\"sealerList\":[{\"nodeID\":\"39ed58e7d741e285fcd32475c962a1380cbd23c6cddb5aac7dbd65556c22ef9b52aeb57159fe29ceafb1e8af68b51141fa09b238a600ff7e92d1d08aee35c162\",\"weight\":1},{\"nodeID\":\"778b9202ede63f4ba6bfb2fbaf69891ecf9d481506e3469275ffe70d7f980959ca9a85131fac70e32cbb077bdfeeec7eedc087e4e4c5cecf6bf840fdcc6a7dac\",\"weight\":1},{\"nodeID\":\"9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17\",\"weight\":1},{\"nodeID\":\"aadc474cb133cb4f2c289add9bdc58bca1629e5706e1d0ac80ad0d71e81897293fcba5d8065f8ecf8fdb316422eb4548e81a30d55ff6d50d026ff5fddc142356\",\"weight\":1}],\"txGasLimit\":3000000000}\n","groupID":"group0","iniConfig":"","nodeList":[{"iniConfig":"{\"binaryInfo\":{\"buildTime\":\"20231120 09:26:49\",\"gitCommitHash\":\"773c82d4289698e0adf0321dd5c8ba0f3d4e9aea\",\"platform\":\"Linux/g++\",\"version\":\"3.5.0\"},\"chainID\":\"chain0\",\"gatewayServiceName\":\"\",\"groupID\":\"group0\",\"isAuthCheck\":false,\"isSerialExecute\":true,\"isWasm\":false,\"nodeID\":\"9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17\",\"nodeName\":\"9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17\",\"rpcServiceName\":\"\",\"smCryptoType\":false}\n","microService":false,"name":"9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17","nodeID":"9982639b1e7971e5b6003f1b6b329d60b3fea30cbe21fa7475953e17c66aff849c3bd64a1757dea20b93ead390cb0e9b7ea0e5801a8ea63d24ba36dbff4f0b17","protocol":{"compatibilityVersion":50659328,"maxSupportedVersion":2,"minSupportedVersion":0},"serviceInfo":[{"serviceName":"LedgerServiceObj","type":2},{"serviceName":"SchedulerServiceObj","type":3},{"serviceName":"FrontServiceObj","type":4},{"serviceName":"","type":6},{"serviceName":"","type":7},{"serviceName":"TxPoolServiceObj","type":8}],"type":0}]}],"protocolVersion":1}
+info|2024-02-01 17:33:53.432051|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:34:13.191189|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:34:13.438110|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:34:33.206443|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:34:33.438329|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:34:53.218420|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:34:53.450359|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:35:13.226449|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:35:13.456302|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:35:33.239651|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:35:33.470604|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:35:53.244619|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:35:53.476305|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:36:13.258203|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:36:13.488824|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:36:33.268666|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:36:33.499253|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:36:53.279206|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:36:53.510794|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:37:13.286104|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:37:13.516728|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:37:33.286338|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:37:33.526640|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:37:53.286501|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:37:53.526715|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:38:13.286600|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:38:13.529977|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:38:33.286714|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:38:33.544322|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:38:53.287114|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:38:53.551289|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:39:13.297320|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:39:13.559065|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:39:33.303155|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:39:33.564918|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:39:53.315468|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:39:53.578001|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:40:13.324870|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:40:13.586148|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:40:33.339085|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:40:33.586612|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:40:53.339689|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:40:53.586724|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:41:13.349566|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:41:13.597558|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:41:33.360044|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:41:33.608074|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:41:53.370589|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:41:53.618588|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:42:13.381110|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:42:13.629108|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:42:33.381263|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:42:33.639263|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:42:53.391349|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:42:53.652602|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:43:13.396166|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:43:13.658159|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:43:33.397355|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:43:33.659169|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:43:53.400186|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:43:53.661622|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:44:13.403483|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:44:13.664414|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:44:33.411890|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:44:33.672285|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:44:53.426007|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:44:53.687685|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:45:13.426504|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:45:13.702457|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:45:33.431332|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:45:33.708653|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:45:53.445869|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:45:53.722274|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:46:13.453156|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:46:13.729521|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:46:33.460825|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:46:33.738192|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:46:53.470309|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:46:53.747434|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:47:13.473500|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:47:13.751827|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:47:33.479210|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:47:33.755389|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:47:53.484760|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:47:53.763567|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:48:13.484820|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:48:13.775997|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:48:33.484876|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:48:33.790937|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:48:53.485176|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:48:53.791241|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:49:13.485378|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:49:13.802008|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:49:33.497480|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:49:33.811980|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:49:53.505855|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:49:53.813979|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:50:13.511971|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:50:13.822724|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:50:33.513655|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:50:33.824151|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:50:53.527404|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:50:53.835800|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:51:13.535784|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:51:13.844007|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:51:33.537257|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:51:33.845639|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0
+info|2024-02-01 17:51:53.541994|[SDK][WS][SERVICE]connected nodes,count=2
+info|2024-02-01 17:51:53.848751|[EVENT][SUB][doLoop]event sub tasks report,working event sub count=0,suspend event sub count=0

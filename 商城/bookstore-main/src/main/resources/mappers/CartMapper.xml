@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.project.bookstore.mapper.CartMapper">
+    <select id="listCart" resultType="Cart">
+        select * from cart where uid=#{uid}
+    </select>
+    <insert id="addCart" parameterType="int">
+        insert into cart(uid,bookID,count)
+        value(#{uid},#{bookID},#{count})
+    </insert>
+    <update id="updateCart" parameterType="int" >
+        update cart set count=#{count} where uid=#{uid} and bookID=#{bookID}
+    </update>
+    <delete id="deleteCart" parameterType="int">
+        delete from cart where cid=#{cid}
+    </delete>
+
+    <select id="getByCartId" parameterType="int" resultType="cart">
+        select * from cart where uid=#{uid} and bookID=#{bookID}
+    </select>
+
+    <delete id="dropCartById" parameterType="int">
+        delete from cart where uid=#{uid}
+    </delete>
+</mapper>
