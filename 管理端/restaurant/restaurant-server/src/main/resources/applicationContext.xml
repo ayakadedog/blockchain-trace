@@ -15,8 +15,8 @@
 			<map>
 				<entry key="peers">
 					<list>
-                        <value>212.64.16.142:20200</value>
-                        <value>212.64.16.142:20201</value>
+                        <value>xxx.xx.xx.xxx:20200</value>
+                        <value>xxx.xx.xx.xxx:20201</value>
 					</list>
 				</entry>
 				<entry key="defaultGroup" value="group0" />
